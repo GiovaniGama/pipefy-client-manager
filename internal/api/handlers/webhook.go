@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
+	"github.com/GiovaniGama/pipefy-client-manager/internal/service"
 	"github.com/gin-gonic/gin"
-	"github.com/seu-usuario/pipefy-client-manager/internal/service"
 	"gorm.io/gorm"
 )
 

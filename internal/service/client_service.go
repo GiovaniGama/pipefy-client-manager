@@ -3,8 +3,8 @@ package service
 import (
 	"log"
 
-	"github.com/seu-usuario/pipefy-client-manager/internal/models"
-	"github.com/seu-usuario/pipefy-client-manager/internal/repository"
+	"github.com/GiovaniGama/pipefy-client-manager/internal/models"
+	"github.com/GiovaniGama/pipefy-client-manager/internal/repository"
 )
 
 type ClientService struct {

@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
+	"github.com/GiovaniGama/pipefy-client-manager/internal/api/handlers"
+	"github.com/GiovaniGama/pipefy-client-manager/internal/database"
+	"github.com/GiovaniGama/pipefy-client-manager/internal/repository"
+	"github.com/GiovaniGama/pipefy-client-manager/internal/service"
 	"github.com/gin-gonic/gin"
-	"github.com/seu-usuario/pipefy-client-manager/internal/api/handlers"
-	"github.com/seu-usuario/pipefy-client-manager/internal/database"
-	"github.com/seu-usuario/pipefy-client-manager/internal/repository"
-	"github.com/seu-usuario/pipefy-client-manager/internal/service"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

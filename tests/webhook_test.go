@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/GiovaniGama/pipefy-client-manager/internal/models"
 	"github.com/gin-gonic/gin"
-	"github.com/seu-usuario/pipefy-client-manager/internal/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

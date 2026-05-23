@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/seu-usuario/pipefy-client-manager/internal/models"
+	"github.com/GiovaniGama/pipefy-client-manager/internal/models"
 	"gorm.io/gorm"
 )
 
